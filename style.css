@@ -1,0 +1,129 @@
+html {
+    font-size: 16px;
+}
+
+
+
+
+#page-content {
+    width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+header {
+   height: 15rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+#Tea {
+    display: none;
+    height: 100%;
+}
+
+#Jedi {
+    display: none;
+    height: 100%;
+}
+
+#Space {
+    display: none;
+    height: 100%;
+}
+
+#Excursion {
+    display: none;
+    height: 100%;
+
+}
+   
+#Tea img {
+    display: block;
+    margin: 0 auto;
+    height:60%;
+    
+}
+
+
+#Jedi img {
+    display: block;
+    margin: 0 auto;
+    height:60%;
+    
+}
+
+#Space img {
+    display: block;
+    margin: 0 auto;
+    height:40%;
+    
+}
+
+#Excursion img {
+    display: block;
+    margin: 0 auto;
+    height:60%;
+    
+}
+
+
+
+
+
+
+    .slides { height: 60%; }
+
+    .slides-hidden { display : none; }
+
+
+#sidebyside {
+
+    display: inline-flex;
+    margin-bottom: 7rem;
+
+}
+
+
+#more-information {
+    margin-left: 2rem;
+    width: 18rem;
+    height: 22rem;
+    margin-right: 6rem;
+}
+
+#project-list {
+    width: 18rem;
+    height: 22rem;
+    margin-right: 2rem;
+}
+
+#general-description {
+    margin-left: 4rem;
+    width: 40rem;
+    margin-right: 4rem;
+    height: 22rem;
+}
+
+#contact {
+    float: right;
+    margin-right: 4rem;
+}
+
+#contact-details{
+    margin-left: 4rem;
+    width: 40rem;
+    margin-right: 4rem;
+    height: 22rem;
+}
+
+
+#projects {
+    margin-left: 4rem;
+}

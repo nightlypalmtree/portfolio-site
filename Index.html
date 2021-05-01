@@ -3,7 +3,8 @@
 <html>
 
 <head>
-
+<link href="style.css" rel="stylesheet">
+<script src="script.js"></script>
 </head>
 
 
@@ -13,34 +14,72 @@
 
 <body>
 
+   
+
 <div id="page-content">
 
-  
+ 
+    
 <header>
 
-<img id="logo1" src="Images\IMG_0034.PNG">
-
+<img id="logo1" class="slides slides-hidden" src="Images\IMG_0034.PNG">
+<img id="logo2" class="slides slides-hidden" src="Images\IMG_0036.PNG">
 
 </header>
 
 <main>
-
+<div id="sidebyside">
 <div id="more-information">
+    
+<div id="Tea">
 
+    <h2>Tea Cozy</h2>
+    <img src="Images\TeaCozy.png">
+    <p>This site used flexbox to organise</p>
+</div>
+
+<div id="Jedi">
+    <h2>Jedi Nerf</h2>
+    <img src="Images\jedinerf.png">
+    <p>This site used flexbox to organise and is responsive.</p>
 
 </div>
+
+
+<div id="Space">
+    <h2>Nightlee Palmer.Space</h2>
+    <img src="Images\Nightleepalmerspace.png">
+        <p>This site used flexbox to organise</p>
+</div>
+
+<div id="Excursion">
+    <h2>Excursione</h2>
+    <img src="Images\Excursions.png">
+    <p>This site features different fonts</p>
+  </div>
+ 
+</div>
+
 
 <div id="project-list">
 
+    <ul>
+        <li><a onclick="showHideExcursion()">Excursion Website</a></li>
+        <li><a onclick="showHideTea()">Tea Cozy Website</a></li>
+        <li><a onclick="showHideJedi()">Jedi Nerf Website</a></li>
+        <li><a onclick="showHideSpace()">Nightlee Palmer.Space Website</a></li>
+        </ul>
 
 </div>
 
+</div>
 
 <div id="general-description">
 
-
+<p> Click on the projects above to see a small picture of the websites I've developed. </p>
 </div>
 
+<a id="contact" href="Contacts.html">contacts</a>
 
 </main>
 
@@ -50,13 +89,6 @@
 </div>  
 
 </body>
-
-
-
-<footer>
-    <a>contacts</a>
-</footer>
-
 
 
 
